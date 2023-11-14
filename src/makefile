@@ -4,7 +4,7 @@
 # All rights reserved (see LICENSE).
 
 # Variables.
-CXX ?= g++
+CXX ?= g++-12
 USE_ROUTING ?= true
 CXXFLAGS = -MMD -MP -I. -std=c++20 -Wextra -Wpedantic -Wall -O3 -DASIO_STANDALONE -DUSE_ROUTING=$(USE_ROUTING)
 LDLIBS = -lpthread
